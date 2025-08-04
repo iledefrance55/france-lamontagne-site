@@ -13,362 +13,244 @@
 
         body {
             font-family: Georgia, serif;
-            line-height: 1.7;
-            color: #2c3e50;
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            min-height: 100vh;
-        }
-
-        .container {
-            max-width: 900px;
+            line-height: 1.8;
+            color: #333;
+            background-color: #fefefe;
+            max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 40px 20px;
         }
 
         header {
             text-align: center;
-            max-width: 100%;
-        }
-
-        .photo-caption {
-            font-style: italic;
-            color: #7f8c8d;
-            margin-top: 10px;
-            font-size: 0.9em;
-        }
-
-        .character-intro {
-            background: linear-gradient(135deg, #74b9ff, #0984e3);
-            color: white;
-            padding: 20px;
-            border-radius: 15px;
-            margin: 25px 0;
-            text-align: center;
-            box-shadow: 0 5px 15px rgba(116, 185, 255, 0.3);
-        }
-
-        .character-intro h3 {
-            margin-bottom: 10px;
-            font-size: 1.3em;
-        }
-
-        .forest-section {
-            background: linear-gradient(135deg, #55a3ff, #003d82);
-            color: white;
-            padding: 25px;
-            border-radius: 15px;
-            margin: 25px 0;
-            box-shadow: 0 8px 25px rgba(0, 61, 130, 0.3);
-        }
-
-        .danger-section {
-            background: linear-gradient(135deg, #ff7675, #d63031);
-            color: white;
-            padding: 25px;
-            border-radius: 15px;
-            margin: 25px 0;
-            box-shadow: 0 8px 25px rgba(214, 48, 49, 0.3);
-        }
-
-        .friendship-section {
-            background: linear-gradient(135deg, #fd79a8, #e84393);
-            color: white;
-            padding: 25px;
-            border-radius: 15px;
-            margin: 25px 0;
-            box-shadow: 0 8px 25px rgba(232, 67, 147, 0.3);
-        }
-
-        .to-continue {
-            text-align: center;
-            font-size: 1.3em;
-            font-weight: bold;
-            color: #2c3e50;
-            margin: 40px 0;
-            padding: 20px;
-            background: rgba(255, 255, 255, 0.8);
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-
-        .navigation {
-            text-align: center;
-            margin: 30px 0;
-        }
-
-        .nav-button {
-            display: inline-block;
-            padding: 12px 25px;
-            background: linear-gradient(45deg, #2c3e50, #34495e);
-            color: white;
-            text-decoration: none;
-            border-radius: 25px;
-            margin: 0 10px;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-        }
-
-        .nav-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                padding: 10px;
-            }
-            
-            h1 {
-                font-size: 2.2em;
-            }
-            
-            .photo-placeholder {
-                width: 250px;
-                height: 167px;
-            }
-            
-            .story-section {
-                padding: 20px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>Nour et la forêt interdite</h1>
-            <p class="subtitle">Les aventures d'une petite caille courageuse</p>
-            <div class="chapter-info">
-                <strong>Chapitre 1 :</strong> L'évasion vers la liberté
-            </div>
-        </header>
-
-        <div class="story-section">
-            <div class="story-text">
-                <p>Aujourd'hui, j'ai encore vu Velox. C'est un renard, je crois. Il me fait très peur avec son long museau et ses yeux perçants. Quand je le vois, je me cache dans les feuilles mortes sous une branche. Je reste complètement immobile. C'est ainsi que font les cailles pour être invisibles. Je suis une caille et je m'appelle Nour.</p>
-            </div>
-
-            <div class="photo-container">
-                <div class="photo-frame">
-                    <img src="images/nour.jpg" alt="Nour, petite caille courageuse" style="width: 300px; height: 200px; object-fit: cover; border-radius: 8px;">
-                    <div class="photo-caption">Nour, petite caille courageuse</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="story-section">
-            <div class="story-text">
-                <p>Voici l'histoire de mes aventures dans la Forêt interdite. J'y suis depuis maintenant 7 semaines. Mais d'abord, je dois vous dire comment je suis arrivée ici. Je ne suis pas née ici. C'est Fran, la sorcière, qui m'y a amenée.</p>
-
-                <p>Jusqu'à l'âge de 6 semaines, je vivais dans une grande cage avec 9 de mes sœurs. Il n'y avait rien à faire, ni rien à voir dans cette cage. Puis Fran est venue. Elle nous a toutes prises et mises dans une grande boîte. On a voyagé très loin, dans le noir.</p>
-
-                <p>À notre arrivée près de la forêt interdite, Fran nous a placées dans un enclos. Il était à l'intérieur d'une drôle de cabane en bois. C'était pas trop mal. On avait beaucoup de nourriture et de l'eau, et du paillis pour gratter et picosser. Nous, les cailles, on adore gratter et picosser le sol à la recherche de nourriture.</p>
-            </div>
-
-            <div class="photo-container">
-                <div class="photo-frame">
-                    <img src="images/cabane.jpg" alt="La drôle de cabane en bois" style="width: 300px; height: 200px; object-fit: cover; border-radius: 8px;">
-                    <div class="photo-caption">La drôle de cabane en bois</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="friendship-section">
-            <div class="story-text">
-                <p>Au bout de quelques jours, je suis devenue amie avec Mina. Mina a de belles plumes blanches au bout de ses ailes. Et elle a de drôles d'idées de temps en temps.</p>
-            </div>
-
-            <div class="photo-container">
-                <div class="photo-frame">
-                    <img src="images/nour-mina.jpg" alt="Nour et Mina, complices d'évasion" style="width: 300px; height: 200px; object-fit: cover; border-radius: 8px;">
-                    <div class="photo-caption">Nour et Mina, complices d'évasion</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="story-section">
-            <div class="story-text">
-                <p>Un jour, Fran nous a toutes mises dans un enclos extérieur. Elle faisait quelque magie avec notre enclos intérieur. Mina, la fouineuse, a trouvé un passage entre deux grillages. On s'est faufilé hors de l'enclos, aux abords de la forêt interdite.</p>
-
-                <p>Quand Fran s'est rendue compte qu'on était en train de s'enfuir, elle a tout tenté pour nous rattraper. Pauvre Mina s'est fait coincer par Inu, la gardienne. Inu est très rapide. Mina n'a eu aucune chance de se sauver. Inu l'a saisi dans sa gueule. Je pensais bien que c'en était fini pour Mina. Mais Inu ne lui a fait aucun mal et Fran a remis Mina dans l'enclos.</p>
-            </div>
-
-            <div class="photo-container">
-                <div class="photo-frame">
-                    <img src="images/inu-chien.jpg" alt="Inu, la gardienne aux pattes rapides" style="width: 300px; height: 200px; object-fit: cover; border-radius: 8px;">
-                    <div class="photo-caption">Inu, la gardienne aux pattes rapides</div>
-                </div>
-            </div>
-
-            <div class="story-text">
-                <p>Quand Fran a essayé de me rattraper, je me suis enfuie dans la Forêt interdite. Je me suis cachée dans un marais touffu et inconnu. Et j'ai attendu, j'ai attendu que Fran, Inu et Z soient partis. Z est aussi un chien gardien mais il est très vieux et très lent.</p>
-            </div>
-
-            <div class="photo-container">
-                <div class="photo-frame">
-                    <img src="images/z-chien.jpg" alt="Z, le chien gardien âgé et paisible" style="width: 300px; height: 200px; object-fit: cover; border-radius: 8px;">
-                    <div class="photo-caption">Z, le chien gardien âgé et paisible</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="forest-section">
-            <div class="story-text">
-                <p>Quand tout fut tranquille, je suis revenue vers la cabane. Toutes mes sœurs étaient de retour à l'intérieur et je ne pouvais pas les voir. Je les entendais piailler, surtout Mina qui m'appelait. J'ai fait le tour de la cabane plusieurs fois mais je n'ai pas trouvé de passage pour retourner à l'intérieur.</p>
-
-                <p>Tranquillement, le soleil se couchait et j'ai compris que je devais trouver un endroit abrité pour dormir. Il y avait un tas d'objets empilés pas très loin de la cabane et j'ai vu que je pouvais m'y blottir pour la nuit. J'avais un peu peur mais les piaillements de mes sœurs me réconfortaient. Je me suis endormie doucement dans ma cachette.</p>
-            </div>
-
-            <div class="photo-container">
-                <div class="photo-frame">
-                    <img src="images/cachette.jpg" alt="La cachette où Nour a passé sa première nuit dehors" style="width: 300px; height: 200px; object-fit: cover; border-radius: 8px;">
-                    <div class="photo-caption">La cachette où Nour a passé sa première nuit dehors</div>
-                </div>
-            </div>
-
-            <div class="photo-container">
-                <div class="photo-frame">
-                    <img src="images/foret-interdite.jpg" alt="La forêt interdite, pleine de mystères et de dangers" style="width: 300px; height: 200px; object-fit: cover; border-radius: 8px;">
-                    <div class="photo-caption">La forêt interdite, pleine de mystères et de dangers</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="story-section">
-            <div class="story-text">
-                <p>Au lever du jour, j'ai exploré un peu les environs pour trouver de la nourriture et de l'eau. Souvent, je courrais me réfugier dans ma cachette car il y a tant de bruits nouveaux et étranges dans la forêt. Petit à petit, je me suis éloignée de la cabane. Le marais regorgeait de délicieux insectes et j'y trouvais de l'eau à boire. La nuit, je me dissimulais dans les feuilles sous des tas de branches.</p>
-            </div>
-        </div>
-
-        <div class="danger-section">
-            <div class="story-text">
-                <p>Un matin, alors que je me promenais tranquillement, j'ai entendu des pas feutrés derrière moi. On me suivait. C'était la première fois que je rencontrais Velox, comme un éclair roux qui fond sur moi.</p>
-            </div>
-
-            <div class="photo-container">
-                <div class="photo-frame">
-                    <img src="images/velox-renard.jpg" alt="Velox, l'éclair roux aux yeux perçants" style="width: 300px; height: 200px; object-fit: cover; border-radius: 8px;">
-                    <div class="photo-caption">Velox, l'éclair roux aux yeux perçants</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="character-intro">
-            <div class="story-text">
-                <p>Mais, hors du marais, surgit soudain un grand oiseau, tout brun comme moi, qui bat des ailes et tambourine, le poitrail gonflé, l'air menaçant. Velox, surpris, prit la fuite. C'est ainsi que je fis la connaissance de Tambour, la gélinotte huppée, et de ses trois petits: Tambourine, Tambourin et Tammy.</p>
-            </div>
-
-            <div class="photo-container">
-                <div class="photo-frame">
-                    <div class="photo-placeholder">
-                        <div>🐦 Photo de Tambour</div>
-                        <small>Le protecteur ailé</small>
-                    </div>
-                    <div class="photo-caption">Tambour, la gélinotte huppée courageuse</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="to-continue">
-            À suivre...
-        </div>
-
-        <div class="navigation">
-            <a href="index.html" class="nav-button">← Retour au site principal</a>
-            <a href="nour-chapitre2.html" class="nav-button">Chapitre 2 →</a>
-        </div>
-    </div>
-</body>
-</html>-align: center;
-            margin-bottom: 40px;
-            background: rgba(255, 255, 255, 0.9);
-            padding: 40px 20px;
-            border-radius: 15px;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255,255,255,0.2);
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #e0e0e0;
         }
 
         h1 {
-            font-size: 2.8em;
+            font-size: 2.5em;
             margin-bottom: 15px;
-            background: linear-gradient(45deg, #2c3e50, #34495e);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            color: #2c3e50;
         }
 
         .subtitle {
-            font-size: 1.2em;
-            color: #7f8c8d;
+            font-size: 1.1em;
+            color: #666;
             font-style: italic;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
 
         .chapter-info {
-            background: rgba(52, 73, 94, 0.1);
+            background-color: #f8f9fa;
             padding: 15px;
-            border-radius: 8px;
-            margin-top: 20px;
+            border-radius: 5px;
             font-size: 0.9em;
+            color: #555;
         }
 
         .story-section {
-            background: rgba(255, 255, 255, 0.95);
-            margin-bottom: 30px;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255,255,255,0.2);
+            margin-bottom: 40px;
         }
 
         .story-text {
             font-size: 1.1em;
             text-align: justify;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
 
         .story-text p {
-            margin-bottom: 15px;
+            margin-bottom: 20px;
         }
 
         .photo-container {
             text-align: center;
-            margin: 30px 0;
-            position: relative;
+            margin: 40px 0;
         }
 
-        .photo-frame {
-            display: inline-block;
-            padding: 15px;
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-            transform: rotate(-1deg);
-            transition: transform 0.3s ease;
-            max-width: 100%;
-        }
-
-        .photo-frame:nth-child(even) {
-            transform: rotate(1deg);
-        }
-
-        .photo-frame:hover {
-            transform: rotate(0deg) scale(1.02);
-        }
-
-        .photo-placeholder {
-            width: 300px;
-            height: 200px;
-            background: linear-gradient(45deg, #f39c12, #f1c40f);
-            border: 2px dashed #e67e22;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+        .photo-container img {
             border-radius: 8px;
-            color: #d35400;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            border: 1px solid #e0e0e0;
+        }
+
+        .photo-caption {
+            font-style: italic;
+            color: #666;
+            margin-top: 10px;
+            font-size: 0.95em;
+        }
+
+        .character-highlight {
+            background-color: #f8f9fa;
+            padding: 25px;
+            border-left: 4px solid #95a5a6;
+            margin: 30px 0;
+            border-radius: 0 5px 5px 0;
+        }
+
+        .to-continue {
+            text-align: center;
+            font-size: 1.2em;
             font-weight: bold;
-            text
+            color: #2c3e50;
+            margin: 50px 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+
+        .navigation {
+            text-align: center;
+            margin: 40px 0;
+            padding-top: 30px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .nav-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #2c3e50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: background-color 0.3s;
+        }
+
+        .nav-button:hover {
+            background-color: #34495e;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 15px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .story-text {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nour et la forêt interdite</h1>
+        <p class="subtitle">Les aventures d'une petite caille courageuse</p>
+        
+        <div class="photo-container">
+            <img src="images/nour.jpg" alt="Nour, petite caille courageuse">
+            <div class="photo-caption">Nour, petite caille courageuse</div>
+        </div>
+        
+        <div class="chapter-info">
+            <strong>Chapitre 1 :</strong> L'évasion vers la liberté
+        </div>
+    </header>
+
+    <div class="story-section">
+        <div class="story-text">
+            <p>Aujourd'hui, j'ai encore vu Velox. C'est un renard, je crois. Il me fait très peur avec son long museau et ses yeux perçants. Quand je le vois, je me cache dans les feuilles mortes sous une branche. Je reste complètement immobile. C'est ainsi que font les cailles pour être invisibles. Je suis une caille et je m'appelle Nour.</p>
+        </div>
+
+        <div class="photo-container">
+            <img src="images/velox-renard.jpg" alt="Velox, l'éclair roux aux yeux perçants">
+            <div class="photo-caption">Velox, l'éclair roux aux yeux perçants</div>
+        </div>
+
+        <div class="story-text">
+            <p>Voici l'histoire de mes aventures dans la Forêt interdite. J'y suis depuis maintenant 7 semaines. Mais d'abord, je dois vous dire comment je suis arrivée ici. Je ne suis pas née ici. C'est Fran, la sorcière, qui m'y a amenée.</p>
+
+            <p>Jusqu'à l'âge de 6 semaines, je vivais dans une grande cage avec 9 de mes sœurs. Il n'y avait rien à faire, ni rien à voir dans cette cage. Puis Fran est venue. Elle nous a toutes prises et mises dans une grande boîte. On a voyagé très loin, dans le noir.</p>
+
+            <p>À notre arrivée près de la forêt interdite, Fran nous a placées dans un enclos. Il était à l'intérieur d'une drôle de cabane en bois. C'était pas trop mal. On avait beaucoup de nourriture et de l'eau, et du paillis pour gratter et picosser. Nous, les cailles, on adore gratter et picosser le sol à la recherche de nourriture.</p>
+        </div>
+
+        <div class="photo-container">
+            <img src="images/cabane.jpg" alt="La drôle de cabane en bois">
+            <div class="photo-caption">La drôle de cabane en bois</div>
+        </div>
+    </div>
+
+    <div class="story-section">
+        <div class="story-text">
+            <p>Au bout de quelques jours, je suis devenue amie avec Mina. Mina a de belles plumes blanches au bout de ses ailes. Et elle a de drôles d'idées de temps en temps.</p>
+
+            <p>Un jour, Fran nous a toutes mises dans un enclos extérieur. Elle faisait quelque magie avec notre enclos intérieur. Mina, la fouineuse, a trouvé un passage entre deux grillages. On s'est faufilé hors de l'enclos, aux abords de la forêt interdite.</p>
+        </div>
+
+        <div class="photo-container">
+            <img src="images/nour-mina.jpg" alt="Nour et Mina, complices d'évasion">
+            <div class="photo-caption">Nour et Mina, complices d'évasion</div>
+        </div>
+
+        <div class="story-text">
+            <p>Quand Fran s'est rendue compte qu'on était en train de s'enfuir, elle a tout tenté pour nous rattraper. Pauvre Mina s'est fait coincer par Inu, la gardienne. Inu est très rapide. Mina n'a eu aucune chance de se sauver. Inu l'a saisi dans sa gueule. Je pensais bien que c'en était fini pour Mina. Mais Inu ne lui a fait aucun mal et Fran a remis Mina dans l'enclos.</p>
+        </div>
+
+        <div class="photo-container">
+            <img src="images/inu-chien.jpg" alt="Inu, la gardienne aux pattes rapides">
+            <div class="photo-caption">Inu, la gardienne aux pattes rapides</div>
+        </div>
+
+        <div class="story-text">
+            <p>Quand Fran a essayé de me rattraper, je me suis enfuie dans la Forêt interdite. Je me suis cachée dans un marais touffu et inconnu. Et j'ai attendu, j'ai attendu que Fran, Inu et Z soient partis. Z est aussi un chien gardien mais il est très vieux et très lent.</p>
+        </div>
+
+        <div class="photo-container">
+            <img src="images/z-chien.jpg" alt="Z, le chien gardien âgé et paisible">
+            <div class="photo-caption">Z, le chien gardien âgé et paisible</div>
+        </div>
+    </div>
+
+    <div class="story-section">
+        <div class="story-text">
+            <p>Quand tout fut tranquille, je suis revenue vers la cabane. Toutes mes sœurs étaient de retour à l'intérieur et je ne pouvais pas les voir. Je les entendais piailler, surtout Mina qui m'appelait. J'ai fait le tour de la cabane plusieurs fois mais je n'ai pas trouvé de passage pour retourner à l'intérieur.</p>
+        </div>
+
+        <div class="photo-container">
+            <img src="images/cachette.jpg" alt="La cachette où Nour a passé sa première nuit dehors">
+            <div class="photo-caption">La cachette où Nour a passé sa première nuit dehors</div>
+        </div>
+
+        <div class="story-text">
+            <p>Tranquillement, le soleil se couchait et j'ai compris que je devais trouver un endroit abrité pour dormir. Il y avait un tas d'objets empilés pas très loin de la cabane et j'ai vu que je pouvais m'y blottir pour la nuit. J'avais un peu peur mais les piaillements de mes sœurs me réconfortaient. Je me suis endormie doucement dans ma cachette.</p>
+
+            <p>Au lever du jour, j'ai exploré un peu les environs pour trouver de la nourriture et de l'eau. Souvent, je courrais me réfugier dans ma cachette car il y a tant de bruits nouveaux et étranges dans la forêt. Petit à petit, je me suis éloignée de la cabane. Le marais regorgeait de délicieux insectes et j'y trouvais de l'eau à boire. La nuit, je me dissimulais dans les feuilles sous des tas de branches.</p>
+        </div>
+
+        <div class="photo-container">
+            <img src="images/foret-interdite.jpg" alt="La forêt interdite, pleine de mystères et de dangers">
+            <div class="photo-caption">La forêt interdite, pleine de mystères et de dangers</div>
+        </div>
+
+        <div class="story-text">
+            <p>Un matin, alors que je me promenais tranquillement, j'ai entendu des pas feutrés derrière moi. On me suivait. C'était la première fois que je rencontrais Velox, comme un éclair roux qui fond sur moi.</p>
+
+            <p>Mais, hors du marais, surgit soudain un grand oiseau, tout brun comme moi, qui bat des ailes et tambourine, le poitrail gonflé, l'air menaçant. Velox, surpris, prit la fuite.</p>
+        </div>
+
+        <div class="photo-container">
+            <img src="images/tambour-gelinotte.jpg" alt="Tambour, la gélinotte huppée courageuse">
+            <div class="photo-caption">Tambour, la gélinotte huppée courageuse</div>
+        </div>
+
+        <div class="story-text">
+            <p>C'est ainsi que je fis la connaissance de Tambour, la gélinotte huppée, et de ses trois petits: Tambourine, Tambourin et Tammy.</p>
+        </div>
+    </div>
+
+    <div class="to-continue">
+        À suivre...
+    </div>
+
+    <div class="navigation">
+        <a href="index.html" class="nav-button">← Retour au site principal</a>
+        <a href="nour-chapitre2.html" class="nav-button">Chapitre 2 →</a>
+    </div>
+</body>
+</html>
